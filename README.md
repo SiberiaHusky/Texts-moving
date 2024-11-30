@@ -1,40 +1,42 @@
 # Texts Moving Effect
 
-本项目使用 Kimi.ai 作为技术支持及介绍编写。
+[**介绍**](README.zh_CN.md)
 
-## 简介
+This project uses Kimi.ai as technical support and introduction for writing.
 
-Texts Moving Effect 是一个简单的 JavaScript 库，用于创建文本移动效果。
+## Introduction
 
-它允许单个字符在网页上随机移动，从而产生一种动态的视觉体验。
+Texts Moving Effect is a simple JavaScript library for creating text movement effects.
 
-这个项目旨在展示如何使用基本的 HTML、CSS 和 JavaScript 来实现生动的文本动画效果。
+It allows individual characters to move randomly on the web page, creating a dynamic visual experience.
 
-## 功能
+This project aims to demonstrate how to use basic HTML, CSS, and JavaScript to achieve vivid text animation effects.
 
-- **动态文本移动**：文本中的每个字符都会在页面上随机移动。
-- **暂停和恢复**：当鼠标悬停在文本容器上时，文本移动会暂停；鼠标离开后，文本移动会恢复。
-- **响应式设计**：文本移动效果会根据容器的大小自动调整。
+## Features
 
-## 使用方法
+- **Dynamic Text Movement**: Each character in the text will move randomly on the page.
+- **Pause and Resume**: The text movement will pause when the mouse hovers over the text container; it will resume once the mouse leaves.
+- **Responsive Design**: The text movement effect will automatically adjust based on the size of the container.
 
-1. **HTML**：在你的 HTML 文件中引入 `texts-moving.js` 和相应的 CSS 样式。
-2. **CSS**：确保你的样式表包含了必要的样式规则，以正确显示文本和容器。
-3. **JavaScript**：`texts-moving.js` 脚本将处理文本的动态移动效果。
+## Usage
 
-## 安装
+1. **HTML**: Include `texts-moving.js` and the corresponding CSS styles in your HTML file.
+2. **CSS**: Ensure your stylesheet contains the necessary style rules to correctly display the text and container.
+3. **JavaScript**: The `texts-moving.js` script will handle the dynamic movement of the text.
 
-你可以通过克隆这个仓库到你的本地环境来使用 Texts Moving Effect：
+## Installation
+
+You can use Texts Moving Effect by cloning this repository to your local environment:
 
 ```bash
 git clone https://github.com/SiberiaHusky/texts-moving.git
 ```
 
-或者，你可以直接下载 `texts-moving.js` 文件，并在你的项目中引用它。
+Alternatively, you can directly download the `texts-moving.js` file and reference it in your project.
 
-## 示例代码
+## Example Code
 
-以下是如何在你的 HTML 文件中使用 Texts Moving Effect 的示例：
+Here is an example of how to use Texts Moving Effect in your HTML file:
 
 ```html
 <!DOCTYPE html>
@@ -42,7 +44,7 @@ git clone https://github.com/SiberiaHusky/texts-moving.git
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 引入 CSS 样式 -->
+    <!-- Include CSS styles -->
     <style>
         #text-container {
             position: relative;
@@ -60,13 +62,13 @@ git clone https://github.com/SiberiaHusky/texts-moving.git
     </style>
 </head>
 <body>
-    <!-- 文本容器 -->
+    <!-- Text container -->
     <div id="text-container">
-        <!-- 你想显示的文本 -->
+        <!-- The text you want to display -->
          <p id="text-fit">With countless designs leave my
             footprints</p>
     </div>
-    <!-- （可选）自定义文本移动步数及动画时长 -->
+    <!-- (Optional) Customize text movement steps and animation duration -->
      <script type="texts-moving-config">
         {
         "step": 50,
@@ -74,24 +76,24 @@ git clone https://github.com/SiberiaHusky/texts-moving.git
         "animationMaxDuration": 5
         }
     </script>
-    <!-- 引入 JavaScript 脚本 -->
+    <!-- Include JavaScript script -->
     <script src="texts-moving.js"></script>
 </body>
 </html>
 ```
 
-## 贡献
+## Contributing
 
-欢迎任何形式的贡献！
+Any form of contribution is welcome!
 
-如果你有任何改进建议或者发现了 bug，请通过提交 issue 或者 pull request 来帮助我改进这个项目。
+If you have any suggestions for improvement or have found a bug, please help me improve this project by submitting an issue or a pull request.
 
-## 许可证
+## License
 
-Texts Moving Effect 使用 MIT 许可证。
+Texts Moving Effect is licensed under the MIT License.
 
-有关更多信息，请查看 `LICENSE` 文件。
+For more information, please refer to the `LICENSE` file.
 
 ---
 
-希望这个介绍能帮助你快速了解 Texts Moving Effect 项目，并开始在你的项目中使用它。如果你有任何问题，欢迎在 GitHub 上提出。
+I hope this introduction will help you quickly understand the Texts Moving Effect project and start using it in your projects. If you have any questions, please feel free to raise them on GitHub.
