@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Necessary CSS style -->
+    <style>
+        #text-container {
+            position: relative;
+            display: flex;
+            top: 0;
+            margin: 16px;
+        }
+
+        .text {
+            position: absolute;
+            font-size: 24px;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: .75;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="column">
+        <h1>Texts Moving Preview</h1>
+        <p>This is a preview of the texts moving effect.</p>
+        <p>Go to <a href="https://github.com/SiberiaHusky/texts-moving" target="_blank">GitHub</a> to see the code.</p>
+    </div>
+
+    <!-- Text-container -->
+    <div id="text-container" style="height: 80vh;">
+        <!-- Text-fit is the text that you want to display -->
+        <p id="text-fit" style="opacity: 0; user-select: none; padding: 24px;">With countless designs leave my
+            footprints</p>
+    </div>
+</body>
+
+<!-- Texts Moving configuration -->
+<!-- Step defaults to 100, which means the distance moved in each step. -->
+<!-- AnimationMinDuration defaults to 2 AnimationMinDuration defaults to 7, which means the duration of the animation -->
+<!-- If AnimationMinDuration and AnimationMaxDuration are same, then all texts will animate at the same time -->
+<script type="texts-moving-config">
+    {
+      "step": 50,
+      "animationMinDuration": 1,
+      "animationMaxDuration": 5
+    }
+</script>
+<!-- Import the Texts Moving JavaScript file -->
+<script src="texts-moving.js"></script>
+
+</html>

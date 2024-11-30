@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>* {
+    padding: 10px;
+}
+
+h1 {
+    font-size: larger;
+}
+
+a {
+    color: #1e86dd;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
