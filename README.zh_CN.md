@@ -1,4 +1,4 @@
-# Texts Moving Effect
+# 文本移动效果
 
 [**Readme**](README.md)
 
@@ -6,7 +6,7 @@
 
 ## 简介
 
-Texts Moving Effect 是一个简单的 JavaScript 库，用于创建文本移动效果。
+本项目是一个简单的 JavaScript 库，用于创建文本移动效果。
 
 它允许单个字符在网页上随机移动，从而产生一种动态的视觉体验。
 
@@ -26,7 +26,7 @@ Texts Moving Effect 是一个简单的 JavaScript 库，用于创建文本移动
 
 ## 安装
 
-你可以通过克隆这个仓库到你的本地环境来使用 Texts Moving Effect：
+你可以通过克隆这个仓库到你的本地环境来使用本项目：
 
 ```bash
 git clone https://github.com/SiberiaHusky/texts-moving.git
@@ -36,7 +36,7 @@ git clone https://github.com/SiberiaHusky/texts-moving.git
 
 ## 示例代码
 
-以下是如何在你的 HTML 文件中使用 Texts Moving Effect 的示例：
+以下是如何在你的 HTML 文件中使用本项目的示例：
 
 ```html
 <!DOCTYPE html>
@@ -90,7 +90,7 @@ git clone https://github.com/SiberiaHusky/texts-moving.git
 
 ## 许可证
 
-Texts Moving Effect 使用 MIT 许可证。
+本项目使用 MIT 许可证。
 
 有关更多信息，请查看 `LICENSE` 文件。
 
